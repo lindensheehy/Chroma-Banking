@@ -1,0 +1,46 @@
+.footer {
+    background: rgba(110, 85, 170, 0.6);
+    padding: 20px;
+    text-align: center;
+    height: 40%; /* Set a fixed height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer .social-icons {
+    margin-bottom: 20px;
+}
+
+.footer .social-icons a {
+    color: #F0F8FF;
+    margin: 0 15px; /* Adjust margin around each icon */
+    font-size: 24px;
+    padding: 25px 10px 25px 10px;
+}
+
+.footer .footer-lists {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.footer .footer-lists ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.footer .footer-lists ul li {
+    margin: 10px;
+}
+
+.footer .footer-lists ul li a {
+    color: #F0F8FF;
+    text-decoration: none; /* Remove underline */
+    padding: 10px 0; /* Padding top and bottom */
+}
+
+.footer .footer-lists ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
